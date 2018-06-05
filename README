@@ -1,0 +1,45 @@
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+
+#AUTHORS : Prarthit Mehra and Mohan Gupta
+
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+
+The purpose of this application is to create an interactive screen saver, which simulates collisions
+in 3D, allowing users to increase/decrease speed, pause/resume etc using one to one thread communication.
+
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+
+REQUIREMENTS : The following libraries are required in your pc for this project to work properly.
+
+-OpenGL
+-Freeglut
+-pthread
+
+The version of g++ required to compile c++11
+
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+
+HOW TO COMPILE AND EXECUTE?
+
+1.> Extract the repository
+2.> After extracting there will be a folder created named Screen-Saver3.> Open the folder and go to Code folder and then right click anywhere inside folder and select open terminal here option 
+4.> Type "make" without quotations and hit enter to run the project
+
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+
+EXTRA FEATURES :
+
+Initially if you type make alone, by default there are 5 balls set. But you can run the project using your own desired no of balls
+by just changing (4th) step in how to compile and execute to "make num_thread=x" without quotations where x is the number of balls
+you want.
+
+The following is list of keyboard options available :
+	-> [+/-] : To increase/decrease speed of ball
+	-> [Spacebar] : To pause/play the animation
+	-> [ESC] : To exit the program
+	-> [Up/Down] : To go inside and come out of cube
+	-> [F5] : For viewing in fullscreen
+	-> [F4] : For going back to normal mode from fullscreen mode
+
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+ 
